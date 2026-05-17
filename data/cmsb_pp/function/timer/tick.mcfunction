@@ -15,4 +15,4 @@ execute if score cmsb_pp.timer.minute cmsb_pp matches 1.. run return run bossbar
 execute if score cmsb_pp.timer.tick cmsb_pp matches 1.. run bossbar set cmsb_pp:timer name [{"text":"準備フェーズ 残り: "},{"score": {"name": "cmsb_pp.timer.second","objective": "cmsb_pp"},"bold": true},{"text": "秒"}]
 
 # 制限時間終了後
-function cmsb_pp:start/battle
+function cmsb_pp:phase/battle
