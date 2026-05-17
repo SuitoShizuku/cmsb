@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "課金PVP\nBy Shizuku",
+    "min_format": [
+      101,
+      1
+    ],
+    "max_format": 101
+  }
+}
