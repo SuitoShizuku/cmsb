@@ -1,0 +1,1 @@
+$scoreboard players set cmsb_pp._timer cmsb_pp $(timelimit)

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:notice",
+  "title": "課金PVP ゲーム設定",
+  "external_title": "課金PVP 設定",
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "timelimit",
+      "width": 140,
+      "label": "準備フェーズ制限時間",
+      "label_format": "minute",
+      "start": 1,
+      "end": 360,
+      "step": 1,
+      "initial": 60
+    }
+  ],
+  "after_action": "close",
+  "pause": false,
+  "action": {
+    "label": "設定を反映",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "/function cmsb_pp:dialogs/ {timelimit:$(timelimit)}"
+    }
+  }
+}
