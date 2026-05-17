@@ -1,4 +1,4 @@
-execute unless score status cmsb_pp matches 1.. run return run tellraw @s [{"text": "ゲームは既に開始しています。","color": "red"}]
+execute if score status cmsb_pp matches 1.. run return run tellraw @s [{"text": "ゲームは既に開始しています。","color": "red"}]
 $scoreboard players set cmsb_pp._timer cmsb_pp $(minute)
 function cmsb_pp:timer/set
 execute if score cmsb_pp.timer.hour cmsb_pp matches 1.. run tellraw @a [{"text":"準備フェーズの制限時間を "},{"score":{"name":"cmsb_pp.timer.hour","objective":"cmsb_pp"},"bold":true,"underlined":true},{"text":"時間","bold":true,"underlined":true},{"score":{"name":"cmsb_pp.timer.minute","objective":"cmsb_pp"},"bold":true,"underlined":true},{"text":"分","bold":true,"underlined":true},{"text":" に設定しました。","bold":false,"underlined":false}]
