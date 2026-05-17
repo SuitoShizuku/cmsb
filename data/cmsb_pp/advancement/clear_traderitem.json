@@ -1,0 +1,109 @@
+{
+  "criteria": {
+    "w": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+            "type_specific": {
+                "type": "player",
+                "input": {
+                    "forward": true
+                }
+            }
+        }
+      }
+    },
+    "a": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+            "type_specific": {
+                "type": "player",
+                "input": {
+                    "left": true
+                }
+            }
+        }
+      }
+    },
+    "s": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+            "type_specific": {
+                "type": "player",
+                "input": {
+                    "backward": true
+                }
+            }
+        }
+      }
+    },
+    "d": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+            "type_specific": {
+                "type": "player",
+                "input": {
+                    "right": true
+                }
+            }
+        }
+      }
+    },
+    "space": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+            "type_specific": {
+                "type": "player",
+                "input": {
+                    "jump": true
+                }
+            }
+        }
+      }
+    },
+    "shift": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+            "type_specific": {
+                "type": "player",
+                "input": {
+                    "sneak": true
+                }
+            }
+        }
+      }
+    },
+    "ctrl": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+            "type_specific": {
+                "type": "player",
+                "input": {
+                    "sprint": true
+                }
+            }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "w",
+      "a",
+      "s",
+      "d",
+      "ctrl",
+      "shift",
+      "space"
+    ]
+  ],
+  "rewards": {
+    "function": "cmsb_pp:villager/clear_tradeable"
+  }
+}
