@@ -39,6 +39,9 @@ team modify null collisionRule never
 team modify null nametagVisibility never
 team modify null prefix {"color":"gray","text":"[他]"}
 
+# 残基カウント用
+scoreboard objectives add deathCount deathCount "死亡回数"
+
 # 定義
 scoreboard objectives add const dummy "定義スコア"
 scoreboard players set $0 const 0

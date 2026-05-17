@@ -1,0 +1,1 @@
+execute as @a if score @s deathCount matches 2.. run gamemode spectator @s
