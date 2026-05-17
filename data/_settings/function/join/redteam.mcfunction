@@ -1,2 +1,2 @@
-execute if score status cmsb_pp matches 1.. run return run tellraw @s [{"text": "ゲームは既に開始しています。","color": "red"}]
+execute if score status cmsb_pp matches 1.. run return run tellraw @s [{"text": "\nゲームは既に開始しています。\n","color": "red"}]
 team join r @s
