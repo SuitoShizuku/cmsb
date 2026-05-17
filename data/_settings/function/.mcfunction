@@ -3,6 +3,6 @@ tellraw @a [{"text": "_settings:set_time","color": "gray", "underlined": true,"c
 tellraw @a [{"text": "_settings:join/redteam","color": "gray", "underlined": true,"clickEvent": {"action": "suggest_command","value": "/function _settings:join/redteam"},"hoverEvent": {"action": "show_text","contents": "クリックでサジェスト"}},{"text":" で赤チームに参加","underlined": false,"color": "white"}]
 tellraw @a [{"text": "_settings:join/greenteam","color": "gray", "underlined": true,"clickEvent": {"action": "suggest_command","value": "/function _settings:join/greenteam"},"hoverEvent": {"action": "show_text","contents": "クリックでサジェスト"}},{"text":" で緑チームに参加","underlined": false,"color": "white"}]
 tellraw @a [{"text": "_settings:join/blueteam","color": "gray", "underlined": true,"clickEvent": {"action": "suggest_command","value": "/function _settings:join/blueteam"},"hoverEvent": {"action": "show_text","contents": "クリックでサジェスト"}},{"text":" で青チームに参加","underlined": false,"color": "white"}]
-tellraw @a "\n"
+tellraw @a ""
 tellraw @a [{"text": "cmsb_pp:phase/ready","color": "gray", "underlined": true,"clickEvent": {"action": "suggest_command","value": "/function cmsb_pp:phase/ready"},"hoverEvent": {"action": "show_text","contents": "クリックでサジェスト"}},{"text":" でゲームを開始","underlined": false,"color": "white"}]
-tellraw @a "\n\n"
+tellraw @a "\n"
