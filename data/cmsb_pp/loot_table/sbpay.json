@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"text\": \"すばペイ\",\"type\": \"text\",\"color\": \"gold\",\"bold\": true}",
+                "minecraft:item_model": "minecraft:gold_nugget",
+                "minecraft:custom_data": {
+                  "cmsb_pp": "sbpay"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
