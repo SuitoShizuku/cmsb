@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "cmsb_pp": "item_swap"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use"
+    ]
+  ],
+  "rewards": {
+    "function": "cmsb_pp:items/item_swap/use"
+  }
+}
