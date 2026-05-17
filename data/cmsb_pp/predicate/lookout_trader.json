@@ -8,7 +8,12 @@
                 "type": "player",
                 "looking_at": {
                     "type": "villager",
-                    "nbt": "{Tags:[\"cmsb_pp\",\"task_manager\"]}"
+                    "nbt": "{Tags:[\"cmsb_pp\",\"task_manager\"]}",
+                    "distance": {
+                        "horizontal": {
+                            "max": 4
+                        } 
+                    }
                 }
             }
         }
