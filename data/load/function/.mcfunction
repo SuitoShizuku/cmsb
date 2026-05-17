@@ -1,0 +1,1 @@
+tellraw @a [{translate:"reload.success",fallback:"リロードされました。",bold:true}]
