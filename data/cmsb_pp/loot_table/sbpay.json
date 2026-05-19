@@ -1,7 +1,12 @@
 {
   "pools": [
     {
-      "rolls": 1,
+      "rolls": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "cmsb_pp.calc.dummy.b",
+        "scale": 1
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -14,7 +19,8 @@
                 "minecraft:item_model": "minecraft:gold_nugget",
                 "minecraft:custom_data": {
                   "cmsb_pp": "sbpay"
-                }
+                },
+                "minecraft:max_stack_size": 99
               }
             }
           ]

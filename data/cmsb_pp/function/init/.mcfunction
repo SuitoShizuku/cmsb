@@ -4,6 +4,19 @@ scoreboard objectives add cmsb_pp dummy "ゲームの詳細データ"
 scoreboard objectives add cmsb_pp.calc.dummy.a dummy "演算用ダミースコアA"
 scoreboard objectives add cmsb_pp.calc.dummy.b dummy "演算用ダミースコアB"
 
+# タスク関係
+scoreboard objectives add cmsb_pp.task.id dummy "タスクID"
+scoreboard objectives add cmsb_pp.task.progress dummy "進捗"
+scoreboard objectives add cmsb_pp.task.1.1 minecraft.mined:oak_log
+scoreboard objectives add cmsb_pp.task.1.2 minecraft.mined:birch_log
+scoreboard objectives add cmsb_pp.task.1.3 minecraft.mined:acacia_log
+scoreboard objectives add cmsb_pp.task.1.4 minecraft.mined:cherry_log
+scoreboard objectives add cmsb_pp.task.1.5 minecraft.mined:jungle_log
+scoreboard objectives add cmsb_pp.task.1.6 minecraft.mined:spruce_log
+scoreboard objectives add cmsb_pp.task.1.7 minecraft.mined:dark_oak_log
+scoreboard objectives add cmsb_pp.task.1.8 minecraft.mined:mangrove_log
+scoreboard objectives add cmsb_pp.task.1.9 minecraft.mined:pale_oak_log
+
 # タイマー用
 scoreboard players set cmsb_pp.timer.tick cmsb_pp 0
 scoreboard players set cmsb_pp.timer.second cmsb_pp 0
