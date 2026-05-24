@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "#cmsb_pp:banner_pattern",
+          "components": {
+            "minecraft:custom_data": {
+              "cmsb_pp": "task_7"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trade"
+    ]
+  ],
+  "rewards": {
+    "function": "cmsb_pp:task/take/7"
+  }
+}

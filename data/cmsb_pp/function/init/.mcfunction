@@ -27,6 +27,13 @@ scoreboard objectives add cmsb_pp.task.4.7 minecraft.mined:nether_sprouts
 scoreboard objectives add cmsb_pp.task.5 minecraft.crafted:bread
 scoreboard objectives add cmsb_pp.task.6.1 minecraft.mined:coal_ore
 scoreboard objectives add cmsb_pp.task.6.2 minecraft.mined:deepslate_coal_ore
+scoreboard objectives add cmsb_pp.task.7.1 minecraft.mined:copper_ore
+scoreboard objectives add cmsb_pp.task.7.2 minecraft.mined:deepslate_copper_ore
+scoreboard objectives add cmsb_pp.task.8.1 minecraft.mined:gold_ore
+scoreboard objectives add cmsb_pp.task.8.2 minecraft.mined:deepslate_gold_ore
+scoreboard objectives add cmsb_pp.task.9 minecraft.mined:nether_quartz_ore
+scoreboard objectives add cmsb_pp.task.10 minecraft.mined:amethyst_cluster
+scoreboard objectives add cmsb_pp.task.11 minecraft.mined:ancient_debris
 
 # タイマー用
 scoreboard players set cmsb_pp.timer.tick cmsb_pp 0
