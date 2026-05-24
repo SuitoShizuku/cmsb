@@ -16,6 +16,7 @@ scoreboard objectives add cmsb_pp.task.1.6 minecraft.mined:spruce_log
 scoreboard objectives add cmsb_pp.task.1.7 minecraft.mined:dark_oak_log
 scoreboard objectives add cmsb_pp.task.1.8 minecraft.mined:mangrove_log
 scoreboard objectives add cmsb_pp.task.1.9 minecraft.mined:pale_oak_log
+scoreboard objectives add cmsb_pp.task.3 minecraft.custom:minecraft.walk_one_cm
 
 # タイマー用
 scoreboard players set cmsb_pp.timer.tick cmsb_pp 0
