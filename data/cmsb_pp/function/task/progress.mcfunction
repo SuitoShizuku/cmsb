@@ -11,3 +11,6 @@ execute if score @s cmsb_pp.task.id matches 9 run function cmsb_pp:task/progress
 execute if score @s cmsb_pp.task.id matches 10 run function cmsb_pp:task/progress/10
 execute if score @s cmsb_pp.task.id matches 11 run function cmsb_pp:task/progress/11
 execute if score @s cmsb_pp.task.id matches 12 run function cmsb_pp:task/progress/12
+execute if score @s cmsb_pp.task.id matches 13 run title @s actionbar [{"text": "トライデント持ちドラウンドの討伐数: "},{"score": {"name": "@s","objective": "cmsb_pp.task.progress"},"color": "gold"},{"text": " /1","color": "red"}]
+execute if score @s cmsb_pp.task.id matches 14 run title @s actionbar [{"text": "エンダードラゴンの討伐数: "},{"score": {"name": "@s","objective": "cmsb_pp.task.progress"},"color": "gold"},{"text": " /1","color": "red"}]
+execute if score @s cmsb_pp.task.id matches 15 run title @s actionbar [{"text": "森の館で音楽を流す: "},{"score": {"name": "@s","objective": "cmsb_pp.task.progress"},"color": "gold"},{"text": " /1","color": "red"}]

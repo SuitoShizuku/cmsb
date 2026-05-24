@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "progress": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "ender_dragon"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "progress"
+    ]
+  ],
+  "rewards": {
+    "function": "cmsb_pp:task/progress/14"
+  }
+}

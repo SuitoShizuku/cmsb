@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "progress": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:mansion",
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:jukebox_playable": {}
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "requirements": [
+    [
+      "progress"
+    ]
+  ],
+  "rewards": {
+    "function": "cmsb_pp:task/progress/15"
+  }
+}
