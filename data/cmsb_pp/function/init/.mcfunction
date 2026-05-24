@@ -24,6 +24,7 @@ scoreboard objectives add cmsb_pp.task.4.4 minecraft.mined:large_fern
 scoreboard objectives add cmsb_pp.task.4.5 minecraft.mined:crimson_roots
 scoreboard objectives add cmsb_pp.task.4.6 minecraft.mined:warped_roots
 scoreboard objectives add cmsb_pp.task.4.7 minecraft.mined:nether_sprouts
+scoreboard objectives add cmsb_pp.task.5 minecraft.crafted:bread
 
 # タイマー用
 scoreboard players set cmsb_pp.timer.tick cmsb_pp 0
