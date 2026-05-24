@@ -1,0 +1,1 @@
+execute if score status cmsb_pp matches 1 run scoreboard players set cmsb_pp.timer.tick cmsb_pp 36000
