@@ -17,6 +17,13 @@ scoreboard objectives add cmsb_pp.task.1.7 minecraft.mined:dark_oak_log
 scoreboard objectives add cmsb_pp.task.1.8 minecraft.mined:mangrove_log
 scoreboard objectives add cmsb_pp.task.1.9 minecraft.mined:pale_oak_log
 scoreboard objectives add cmsb_pp.task.3 minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add cmsb_pp.task.4.1 minecraft.mined:short_grass
+scoreboard objectives add cmsb_pp.task.4.2 minecraft.mined:tall_grass
+scoreboard objectives add cmsb_pp.task.4.3 minecraft.mined:fern
+scoreboard objectives add cmsb_pp.task.4.4 minecraft.mined:large_fern
+scoreboard objectives add cmsb_pp.task.4.5 minecraft.mined:crimson_roots
+scoreboard objectives add cmsb_pp.task.4.6 minecraft.mined:warped_roots
+scoreboard objectives add cmsb_pp.task.4.7 minecraft.mined:nether_sprouts
 
 # タイマー用
 scoreboard players set cmsb_pp.timer.tick cmsb_pp 0
