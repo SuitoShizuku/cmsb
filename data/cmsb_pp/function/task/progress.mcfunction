@@ -5,3 +5,8 @@ execute if score @s cmsb_pp.task.id matches 3 run function cmsb_pp:task/progress
 execute if score @s cmsb_pp.task.id matches 4 run function cmsb_pp:task/progress/4
 execute if score @s cmsb_pp.task.id matches 5 run function cmsb_pp:task/progress/5
 execute if score @s cmsb_pp.task.id matches 6 run function cmsb_pp:task/progress/6
+execute if score @s cmsb_pp.task.id matches 7 run function cmsb_pp:task/progress/7
+execute if score @s cmsb_pp.task.id matches 8 run function cmsb_pp:task/progress/8
+execute if score @s cmsb_pp.task.id matches 9 run function cmsb_pp:task/progress/9
+execute if score @s cmsb_pp.task.id matches 10 run function cmsb_pp:task/progress/10
+execute if score @s cmsb_pp.task.id matches 11 run function cmsb_pp:task/progress/11
