@@ -4,3 +4,4 @@ execute if score @s cmsb_pp.task.id matches 2 run title @s actionbar [{"text": "
 execute if score @s cmsb_pp.task.id matches 3 run function cmsb_pp:task/progress/3
 execute if score @s cmsb_pp.task.id matches 4 run function cmsb_pp:task/progress/4
 execute if score @s cmsb_pp.task.id matches 5 run function cmsb_pp:task/progress/5
+execute if score @s cmsb_pp.task.id matches 6 run function cmsb_pp:task/progress/6
