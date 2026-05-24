@@ -10,3 +10,4 @@ execute if score @s cmsb_pp.task.id matches 8 run function cmsb_pp:task/progress
 execute if score @s cmsb_pp.task.id matches 9 run function cmsb_pp:task/progress/9
 execute if score @s cmsb_pp.task.id matches 10 run function cmsb_pp:task/progress/10
 execute if score @s cmsb_pp.task.id matches 11 run function cmsb_pp:task/progress/11
+execute if score @s cmsb_pp.task.id matches 12 run function cmsb_pp:task/progress/12

@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "progress": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "creeper"
+        },
+        "item": {
+          "items": [
+            "flint_and_steel",
+            "fire_charge"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "progress"
+    ]
+  ],
+  "rewards": {
+    "function": "cmsb_pp:task/progress/12"
+  }
+}
