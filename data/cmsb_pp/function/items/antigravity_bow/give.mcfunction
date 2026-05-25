@@ -1,0 +1,1 @@
+give @s bow[enchantments={"cmsb_pp:antigravity":1},repair_cost=2147483647,custom_data={cmsb_pp:"antigravity_bow"},item_name='{"text": "重力無視の弓","color":"dark_aqua","bold": true}',item_model=bow] 1

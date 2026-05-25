@@ -1,0 +1,28 @@
+{
+    "anvil_cost": 2147483647,
+    "description": "重力無視",
+    "supported_items": "minecraft:bow",
+    "weight": 1,
+    "max_cost": {
+        "base": 2147483647,
+        "per_level_above_first": 1
+    },
+    "min_cost": {
+        "base": 2147483647,
+        "per_level_above_first": 1
+    },
+    "max_level": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "projectile_spawned": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "cmsb_pp:items/antigravity_bow/arrow"
+                }
+            }
+        ]
+    }
+}

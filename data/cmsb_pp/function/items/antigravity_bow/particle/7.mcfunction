@@ -1,0 +1,21 @@
+# [ImportKey]: NobwRALgngDgpmAXGAxgSwE4oDYIDRgCuhaAJkmAGYoCsAzAGwAsdKAtCgIwCGAHG0wCcABmFtuwgOwM2NFLzicmcQXFKUaYAgDtuAWwTJAYYoACAExawMbhn0BnJOBQB7QtohIzwgijju4GI5gAG7c2ISG4AAeSN5gULEAvokEtqRohA6InAB0DPk0BHYQNh6IcXDY2GgwdoacoqnOJRCGcWh2AKJVNXWdAI6EYdhQAMrWvuSIlGF1yQC6QA_3
+particle wax_off ^0 ^ ^-1.6665 0 0 0 0 1
+particle wax_off ^0.51498 ^ ^-1.58494 0 0 0 0 1
+particle wax_off ^0.97954 ^ ^-1.34823 0 0 0 0 1
+particle wax_off ^1.34823 ^ ^-0.97954 0 0 0 0 1
+particle wax_off ^1.58494 ^ ^-0.51498 0 0 0 0 1
+particle wax_off ^1.6665 ^ ^0 0 0 0 0 1
+particle wax_off ^1.58494 ^ ^0.51498 0 0 0 0 1
+particle wax_off ^1.34823 ^ ^0.97954 0 0 0 0 1
+particle wax_off ^0.97954 ^ ^1.34823 0 0 0 0 1
+particle wax_off ^0.51498 ^ ^1.58494 0 0 0 0 1
+particle wax_off ^0 ^ ^1.6665 0 0 0 0 1
+particle wax_off ^-0.51498 ^ ^1.58494 0 0 0 0 1
+particle wax_off ^-0.97954 ^ ^1.34823 0 0 0 0 1
+particle wax_off ^-1.34823 ^ ^0.97954 0 0 0 0 1
+particle wax_off ^-1.58494 ^ ^0.51498 0 0 0 0 1
+particle wax_off ^-1.6665 ^ ^0 0 0 0 0 1
+particle wax_off ^-1.58494 ^ ^-0.51498 0 0 0 0 1
+particle wax_off ^-1.34823 ^ ^-0.97954 0 0 0 0 1
+particle wax_off ^-0.97954 ^ ^-1.34823 0 0 0 0 1
+particle wax_off ^-0.51498 ^ ^-1.58494 0 0 0 0 1
