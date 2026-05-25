@@ -5,3 +5,4 @@ summon marker 0.0 0.0 0.0 {Tags:['cmsb_pp','AntiGravityMarker']}
 data modify entity @n[tag=AntiGravityMarker,type=marker] Pos set from entity @s Motion
 execute positioned 0.0 0.0 0.0 facing entity @n[tag=AntiGravityMarker,type=marker] feet positioned as @s run function cmsb_pp:items/antigravity_bow/particle/summon
 kill @e[tag=AntiGravityMarker]
+scoreboard players set @s cmsb_pp 120

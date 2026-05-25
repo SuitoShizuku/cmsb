@@ -1,0 +1,1 @@
+give @s spectral_arrow[max_stack_size=24,enchantment_glint_override=true,custom_data={cmsb_pp:"lightning_arrow"},item_name='{"text": "落雷の矢","color":"dark_aqua","bold": true}',lore=['{"text": "エンティティを貫通する","color": "gray","italic": false}','{"text": "着弾時に雷を落とす","color": "gray","italic": false}']] 24

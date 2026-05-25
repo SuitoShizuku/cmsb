@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 2147483647,
+  "description": "a",
+  "supported_items": "minecraft:spectral_arrow",
+  "weight": 1,
+  "max_cost": {
+    "base": 2147483647,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 2147483647,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:summon_entity",
+          "entity": "minecraft:lightning_bolt"
+        },
+        "enchanted": "damaging_entity",
+        "affected": "victim"
+      }
+    ]
+  }
+}

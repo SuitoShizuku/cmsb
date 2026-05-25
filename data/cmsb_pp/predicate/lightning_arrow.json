@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:spectral_arrow",
+    "nbt": {
+      "item": {
+        "id": "minecraft:spectral_arrow",
+        "components": {
+          "minecraft:custom_data": {
+            "cmsb_pp": "lightning_arrow"
+          }
+        }
+      }
+    }
+  }
+}
