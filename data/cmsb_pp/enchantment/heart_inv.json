@@ -1,0 +1,40 @@
+{
+  "anvil_cost": 2,
+  "description": "観測者の意思",
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:invisibility",
+          "min_duration": 1,
+          "max_duration": 1,
+          "min_amplifier": 0,
+          "max_amplifier": 0
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "no_atk",
+        "amount": -99,
+        "operation": "add_value"
+      }
+    ]
+  },
+  "weight": 1,
+  "max_cost": {
+    "base": 5,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 2,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "slots": [
+    "offhand"
+  ],
+  "supported_items": "minecraft:enchanted_book"
+}
