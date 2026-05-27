@@ -1,0 +1,2 @@
+give @s stone_sword[enchantments={"cmsb_pp:infinity_unbreaking":1,"minecraft:sharpness":1},item_name='"剣"',lore=['{"text": "初期装備の剣","color": "white","italic": false}','{"text": "こわれない","color": "white","italic": false}']] 1
+give @s cooked_beef 24

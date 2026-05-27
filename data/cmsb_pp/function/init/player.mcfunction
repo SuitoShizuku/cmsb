@@ -3,3 +3,4 @@ effect clear @s
 gamemode survival @s[team=!null]
 gamemode spectator @s[team=null]
 tag @s remove have_task
+function cmsb_pp:items/init_items/give
