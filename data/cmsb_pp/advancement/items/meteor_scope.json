@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "cmsb_pp": "meteor_scope"
+            }
+          }
+        },
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "input": {
+              "sneak": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use"
+    ]
+  ],
+  "rewards": {
+    "function": "cmsb_pp:items/meteor/scope_use"
+  }
+}

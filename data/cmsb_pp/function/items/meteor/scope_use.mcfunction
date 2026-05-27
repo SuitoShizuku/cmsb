@@ -1,0 +1,4 @@
+advancement revoke @s only cmsb_pp:items/meteor_scope
+execute if function cmsb_pp:items/ct/check run return 0
+item modify entity @s weapon.mainhand cmsb_pp:item_use
+execute anchored eyes positioned ^ ^ ^1.5 run function cmsb_pp:items/meteor/scope_re

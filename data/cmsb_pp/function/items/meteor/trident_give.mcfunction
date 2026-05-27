@@ -1,0 +1,1 @@
+give @s trident[attribute_modifiers=[],enchantments={"cmsb_pp:anti_anvil":1},custom_data={cmsb_pp:"meteor_trident"},item_name='{"text": "隕石の銛","color":"dark_aqua","bold": true}',unbreakable={show_in_tooltip:false}]

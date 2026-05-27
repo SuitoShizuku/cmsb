@@ -1,0 +1,1 @@
+give @s spyglass[enchantment_glint_override=false,custom_data={cmsb_pp:"meteor_scope"},item_name='{"text": "隕石のスコープ(仮)","color":"dark_aqua","bold": true}',unbreakable={show_in_tooltip:false},lore=['{"text": "右クリックで覗き、スニークで目先の地点に隕石を落とす。","color": "white","italic": false}'],max_stack_size=6] 6

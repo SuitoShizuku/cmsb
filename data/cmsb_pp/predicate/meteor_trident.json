@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:trident",
+    "nbt": {
+      "item": {
+        "id": "minecraft:trident",
+        "components": {
+          "minecraft:custom_data": {
+            "cmsb_pp": "meteor_trident"
+          }
+        }
+      },
+      "inGround": true
+    }
+  }
+}

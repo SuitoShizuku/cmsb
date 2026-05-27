@@ -1,4 +1,5 @@
 scoreboard players remove @s cmsb_pp 1
+scoreboard players remove @e[distance=..0.1,tag=meteor_point] cmsb_pp 1
 execute if score @s cmsb_pp matches ..10 run playsound entity.experience_orb.pickup hostile @a ~ ~ ~ 1 2
 execute if score @s cmsb_pp matches 11 run playsound entity.experience_orb.pickup hostile @a ~ ~ ~ 1 1.9
 execute if score @s cmsb_pp matches 12 run playsound entity.experience_orb.pickup hostile @a ~ ~ ~ 1 1.8
