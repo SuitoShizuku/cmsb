@@ -37,6 +37,7 @@ scoreboard objectives add cmsb_pp.task.11 minecraft.mined:ancient_debris
 
 # アイテム関係
 scoreboard objectives add cmsb_pp.timer.ct dummy "ユニークアイテムのクールタイム"
+scoreboard objectives add cmsb_pp.item.saber dummy "サーベルのコンボ有効時間"
 
 # タイマー用
 scoreboard players set cmsb_pp.timer.tick cmsb_pp 0

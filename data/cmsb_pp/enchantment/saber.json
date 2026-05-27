@@ -1,0 +1,86 @@
+{
+  "anvil_cost": 2,
+  "description": "コンボ",
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "cmsb_pp:items/saber/attack"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 0.5
+          }
+        }
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "cmsb_pp:items/saber/reset"
+        },
+        "requirements": {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "cmsb_pp.item.saber": {
+              "max": 0
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "cmsb_pp:items/saber/tick"
+        },
+        "requirements": {
+          "condition": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "cmsb_pp.item.saber": {
+              "min": 1
+            }
+          }
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "cmsb_pp:saber_atkspd",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0,
+          "per_level_above_first": 0.1
+        },
+        "operation": "add_value"
+      }
+    ]
+  },
+  "weight": 1,
+  "max_cost": {
+    "base": 5,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 2,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/durability"
+}

@@ -1,0 +1,1 @@
+scoreboard players remove @s cmsb_pp.item.saber 1
