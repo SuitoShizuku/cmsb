@@ -9,3 +9,4 @@ execute as @e[predicate=cmsb_pp:lightning_arrow] at @s run function cmsb_pp:item
 execute as @e[tag=AntiGravityArrow] at @s run function cmsb_pp:items/antigravity_bow/tick
 execute as @e[tag=meteor_root] at @s run function cmsb_pp:items/meteor/fall
 execute as @e[tag=meteor_point_lv] at @s run function cmsb_pp:items/meteor/point
+execute as @a if score @s cmsb_pp.timer.ct matches 1.. run function cmsb_pp:items/ct/down

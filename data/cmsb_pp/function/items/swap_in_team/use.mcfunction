@@ -1,4 +1,5 @@
 advancement revoke @s only cmsb_pp:items/swap_in_team
+execute if function cmsb_pp:items/ct/check run return 0
 item modify entity @s weapon.mainhand cmsb_pp:item_use
 
 execute if entity @s[team=r] run function cmsb_pp:items/swap_in_team/tp {team:"r"}

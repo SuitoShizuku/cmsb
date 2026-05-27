@@ -35,6 +35,9 @@ scoreboard objectives add cmsb_pp.task.9 minecraft.mined:nether_quartz_ore
 scoreboard objectives add cmsb_pp.task.10 minecraft.mined:amethyst_cluster
 scoreboard objectives add cmsb_pp.task.11 minecraft.mined:ancient_debris
 
+# アイテム関係
+scoreboard objectives add cmsb_pp.timer.ct dummy "ユニークアイテムのクールタイム"
+
 # タイマー用
 scoreboard players set cmsb_pp.timer.tick cmsb_pp 0
 scoreboard players set cmsb_pp.timer.second cmsb_pp 0
