@@ -1,0 +1,30 @@
+{
+    "anvil_cost": 2,
+    "description": "攻撃するとランダムな剣に変化する",
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "cmsb_pp:items/random_weapon/swap"
+                },
+                "enchanted": "attacker",
+                "affected": "attacker"
+            }
+        ]
+    },
+    "weight": 1,
+    "max_cost": {
+        "base": 2147483647,
+        "per_level_above_first": 1
+    },
+    "min_cost": {
+        "base": 2147483647,
+        "per_level_above_first": 1
+    },
+    "max_level": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/durability"
+}

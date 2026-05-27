@@ -1,0 +1,1 @@
+give @s golden_sword[enchantments={"cmsb_pp:randomweapon":1},custom_data={cmsb_pp:"random_weapon"},item_name='{"text": "変化の剣","color":"dark_aqua","bold": true}'] 1

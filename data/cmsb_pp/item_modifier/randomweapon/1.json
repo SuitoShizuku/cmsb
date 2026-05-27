@@ -1,0 +1,80 @@
+[
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:wooden_sword",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "cmsb_pp.calc.dummy.a": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:stone_sword",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "cmsb_pp.calc.dummy.a": 2
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:golden_sword",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "cmsb_pp.calc.dummy.a": 3
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:iron_sword",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "cmsb_pp.calc.dummy.a": 4
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:diamond_sword",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "cmsb_pp.calc.dummy.a": 5
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:netherite_sword",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "cmsb_pp.calc.dummy.a": 6
+        }
+      }
+    ]
+  }
+]
