@@ -20,7 +20,8 @@
                 "minecraft:custom_data": {
                   "cmsb_pp": "sbpay"
                 },
-                "minecraft:max_stack_size": 99
+                "minecraft:max_stack_size": 99,
+                "!consumable": {}
               }
             }
           ]

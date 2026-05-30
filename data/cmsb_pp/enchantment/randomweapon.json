@@ -1,6 +1,6 @@
 {
     "anvil_cost": 2,
-    "description": "攻撃するとランダムな剣に変化する",
+    "description": "変化",
     "effects": {
         "minecraft:post_attack": [
             {
