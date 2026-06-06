@@ -55,23 +55,27 @@ team modify r color red
 team modify r collisionRule pushOtherTeams
 team modify r friendlyFire false
 team modify r seeFriendlyInvisibles true
+team modify r nametagVisibility hideForOtherTeams
 team modify b prefix {"color":"red","text":"[赤]"}
 team add g "緑チーム"
 team modify g color green
 team modify g collisionRule pushOtherTeams
 team modify g friendlyFire false
 team modify g seeFriendlyInvisibles true
+team modify g nametagVisibility hideForOtherTeams
 team modify b prefix {"color":"green","text":"[緑]"}
 team add b "青チーム"
 team modify b color blue
 team modify b collisionRule pushOtherTeams
 team modify b friendlyFire false
 team modify b seeFriendlyInvisibles true
+team modify b nametagVisibility hideForOtherTeams
 team modify b prefix {"color":"blue","text":"[青]"}
 team add null "チームなし"
 team modify null color gray
 team modify null collisionRule never
 team modify null nametagVisibility never
+team modify null nametagVisibility hideForOtherTeams
 team modify null prefix {"color":"gray","text":"[他]"}
 
 # 残基カウント用
