@@ -1,4 +1,5 @@
 advancement revoke @s only cmsb_pp:task/take/99
+execute if entity @s[tag=have_task] run return 0
 scoreboard players set @s cmsb_pp.task.id 99
 function cmsb_pp:task/init
 execute store result score @s cmsb_pp.calc.dummy.b run random value 1..12

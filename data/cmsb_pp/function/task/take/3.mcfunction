@@ -1,4 +1,5 @@
 advancement revoke @s only cmsb_pp:task/take/3
+execute if entity @s[tag=have_task] run return 0
 scoreboard players set @s cmsb_pp.task.id 3
 function cmsb_pp:task/init
 scoreboard players set @s cmsb_pp.task.3 0
