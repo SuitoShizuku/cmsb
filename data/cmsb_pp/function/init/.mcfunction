@@ -4,6 +4,10 @@ scoreboard objectives add cmsb_pp dummy "ゲームの詳細データ"
 scoreboard objectives add cmsb_pp.calc.dummy.a dummy "演算用ダミースコアA"
 scoreboard objectives add cmsb_pp.calc.dummy.b dummy "演算用ダミースコアB"
 
+# スニーク50回で1すばペイもらう用
+scoreboard objectives add cmsb_pp.passive minecraft.custom:minecraft.sneak_time
+scoreboard objectives add cmsb_pp.passive.count dummy
+
 # タスク関係
 scoreboard objectives add cmsb_pp.task.id dummy "タスクID"
 scoreboard objectives add cmsb_pp.task.progress dummy "進捗"

@@ -12,3 +12,5 @@ execute as @e[tag=meteor_point_lv] at @s run function cmsb_pp:items/meteor/point
 execute as @e[predicate=cmsb_pp:meteor_trident] at @s run function cmsb_pp:items/meteor/trident_in
 
 execute as @a if score @s cmsb_pp.timer.ct matches 1.. run function cmsb_pp:items/ct/down
+
+execute as @a if score @s cmsb_pp.passive matches 1.. run function cmsb_pp:passive/down
