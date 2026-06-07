@@ -1,4 +1,5 @@
 advancement revoke @s only cmsb_pp:death
+execute unless score status cmsb_pp matches 2 run return 0
 
 # 累計死亡回数を取得
 # 2回死んだら強制スペクテイターなので1チーム4回以上死んでいたら脱落とする。
