@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "progress": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:player"
+            }
+          },
+          "equipment": {
+            "head": {
+              "items": "minecraft:observer"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "progress"
+    ]
+  ],
+  "rewards": {
+    "function": "cmsb_pp:task/progress/16"
+  }
+}
