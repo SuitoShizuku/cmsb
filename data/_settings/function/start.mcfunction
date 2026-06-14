@@ -1,0 +1,3 @@
+execute unless score cmsb_pp._timer cmsb_pp matches 1.. run return run tellraw @a [{"text": "ゲームを開始しようとしましたが、制限時間が設定されていません。\n","color": "red"},{"text": "_settings:set_time","color": "gray", "underlined": true,"clickEvent": {"action": "suggest_command","value": "/function _settings:set_time {minute:＜半角数字で分数を入力＞}"},"hoverEvent": {"action": "show_text","contents": "クリックでサジェスト"}},{"text":" で準備フェーズの制限時間を設定してください。","underlined": false,"color": "white"}]
+execute if entity @a[team=!r,team=!g,team=!b] run return run tellraw @a [{"text": "チームに割り当てられていないプレイヤーは自動的に割り当てられます。","color": "red"}]
+function cmsb_pp:phase/ready

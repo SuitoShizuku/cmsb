@@ -56,6 +56,9 @@ bossbar add cmsb_pp:timer "タイマー(残り時間)"
 # 分単位
 scoreboard players set cmsb_pp._timer cmsb_pp 0
 
+# フェーズの初期設定
+scoreboard players set status cmsb_pp 0
+
 # チーム
 team add r "赤チーム"
 team modify r color red
