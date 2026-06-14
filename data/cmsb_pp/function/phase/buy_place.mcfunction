@@ -14,3 +14,6 @@ execute at @e[tag=pvp_shop] align xyz positioned ~0.5 ~ ~0.5 positioned ~-2.2 ~2
 execute at @e[tag=pvp_shop] align xyz positioned ~0.5 ~ ~0.5 positioned ~ ~2 ~2.2 run function cmsb_pp:villager/sb_trade
 execute at @e[tag=pvp_shop] align xyz positioned ~0.5 ~ ~0.5 positioned ~ ~2 ~-2.2 run function cmsb_pp:villager/sb_trade
 
+execute as @n[tag=pvp_red] at @s run tp @a[team=r] ~ ~3 ~
+execute as @n[tag=pvp_green] at @s run tp @a[team=g] ~ ~3 ~
+execute as @n[tag=pvp_blue] at @s run tp @a[team=b] ~ ~3 ~

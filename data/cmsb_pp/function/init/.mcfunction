@@ -1,4 +1,5 @@
 forceload add 0 0 0 0
+execute in cmsb_pp:pvp run forceload add -64 -64 47 47
 scoreboard objectives add cmsb_pp dummy "ゲームの詳細データ"
 
 scoreboard objectives add cmsb_pp.calc.dummy.a dummy "演算用ダミースコアA"
@@ -57,7 +58,7 @@ bossbar add cmsb_pp:timer "タイマー(残り時間)"
 scoreboard players set cmsb_pp._timer cmsb_pp 0
 
 # フェーズの初期設定
-scoreboard players set status cmsb_pp 0
+execute unless score status cmsb_pp matches 1.. run scoreboard players set status cmsb_pp 0
 
 # チーム
 team add r "赤チーム"

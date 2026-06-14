@@ -1,3 +1,4 @@
+execute as @a in cmsb_pp:pvp run tp @s 0 100 0
 worldborder center 0.5 0.5
 worldborder warning distance 5
 worldborder damage amount 0.5
