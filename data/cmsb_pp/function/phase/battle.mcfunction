@@ -1,5 +1,9 @@
 # PVPフェーズ
-scoreboard players set status cmsb_pp 2
+scoreboard players set status cmsb_pp 3
 bossbar set cmsb_pp:timer visible false
 
 scoreboard players set @a deathCount 0
+
+execute as @e[tag=pvp_shop] at @s run fill ~-3 ~ ~-3 ~3 ~7 ~3 air
+kill @e[tag=pvp_trader]
+execute as @a at @s positioned over motion_blocking_no_leaves run tp @s ~ ~ ~ ~ ~

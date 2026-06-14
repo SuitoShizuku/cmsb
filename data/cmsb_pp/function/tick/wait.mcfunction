@@ -1,0 +1,1 @@
+title @a actionbar [{"text": "/function #_settings:","color": "gray","underlined": true},{"text": " で ゲーム設定・チーム・ゲーム開始","color": "white","underlined": false}]
