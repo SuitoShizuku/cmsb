@@ -1,0 +1,3 @@
+tellraw @s [{"text": "-","color": "dark_red"},{"text": "[","color": "black"},{"text": " マスタータスク ","color": "dark_red"},{"text": "]","color": "black"},{"text": "-","color": "dark_red"},{"text": "-","color": "black"},{"text": "-","color": "dark_red"},{"text": "-","color": "black"},{"text": "-","color": "dark_red"}]
+$function cmsb_pp:task/take/$(num)
+tellraw @s [{"text": "報酬が","color": "dark_red"},{"text": "3倍","color": "gold"},{"text":"になります。","color": "dark_red"}]

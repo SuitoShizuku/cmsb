@@ -44,7 +44,6 @@ scoreboard objectives add cmsb_pp.task.10 minecraft.mined:amethyst_cluster
 scoreboard objectives add cmsb_pp.task.11 minecraft.mined:ancient_debris
 scoreboard objectives add cmsb_pp.task.16.t dummy
 scoreboard objectives add cmsb_pp.task.16.s dummy
-scoreboard objectives add cmsb_pp.task.17 minecraft.killed:blaze
 
 # アイテム関係
 scoreboard objectives add cmsb_pp.timer.ct dummy "ユニークアイテムのクールタイム"
