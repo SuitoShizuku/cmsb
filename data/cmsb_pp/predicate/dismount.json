@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+      "vehicle": {
+        "type": "snowball"
+      }
+    }
+  }
+}

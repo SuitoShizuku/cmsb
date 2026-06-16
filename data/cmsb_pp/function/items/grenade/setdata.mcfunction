@@ -1,0 +1,1 @@
+$data modify entity @s data set value {cmsb_pp:$(cmsb_pp)}

@@ -46,6 +46,7 @@ scoreboard objectives add cmsb_pp.task.16.s dummy
 # アイテム関係
 scoreboard objectives add cmsb_pp.timer.ct dummy "ユニークアイテムのクールタイム"
 scoreboard objectives add cmsb_pp.item.saber dummy "サーベルのコンボ有効時間"
+scoreboard objectives add cmsb_pp.item.used_snowball minecraft.used:snowball "雪玉の使用回数"
 
 # タイマー用
 scoreboard players set cmsb_pp.timer.tick cmsb_pp 0

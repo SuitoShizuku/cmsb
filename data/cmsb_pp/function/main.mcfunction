@@ -11,6 +11,8 @@ execute as @e[tag=AntiGravityArrow] at @s run function cmsb_pp:items/antigravity
 execute as @e[tag=meteor_root] at @s run function cmsb_pp:items/meteor/fall
 execute as @e[tag=meteor_point_lv] at @s run function cmsb_pp:items/meteor/point
 execute as @e[predicate=cmsb_pp:meteor_trident] at @s run function cmsb_pp:items/meteor/trident_in
+execute as @a if score @s cmsb_pp.item.used_snowball matches 1.. at @s run function cmsb_pp:items/grenade/throw
+execute as @e[predicate=cmsb_pp:dismount,tag=cobweb_grenade] at @s run function cmsb_pp:items/grenade/hit with entity @s data
 
 execute as @a if score @s cmsb_pp.timer.ct matches 1.. run function cmsb_pp:items/ct/down
 

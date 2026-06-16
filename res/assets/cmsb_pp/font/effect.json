@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "cmsb_pp:font/whiteout.png",
+            "ascent": 100,
+            "height": 200,
+            "chars": [
+                "\uE001"
+            ]
+        }
+    ]
+}
