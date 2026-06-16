@@ -1,0 +1,1 @@
+function cmsb_pp:items/instant_block/summon {life:100}
