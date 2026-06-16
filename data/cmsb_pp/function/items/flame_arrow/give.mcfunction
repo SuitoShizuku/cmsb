@@ -1,0 +1,1 @@
+give @s arrow[max_stack_size=24,custom_model_data={strings:["flame_arrow"]},custom_data={cmsb_pp:"flame_arrow"},item_name='{"text": "炎の矢","color":"dark_aqua","bold": true}',lore=['{"text": "エンティティに命中した時、対象に火が移る","color": "gray","italic": false}','{"text": "ブロックに着弾した時、火で周囲を燃焼する","color": "gray","italic": false}']] 24

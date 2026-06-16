@@ -8,7 +8,7 @@
         "id": "minecraft:arrow",
         "components": {
           "minecraft:custom_data": {
-            "cmsb_pp": "lightning_arrow"
+            "cmsb_pp": "flame_arrow"
           }
         }
       }

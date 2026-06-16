@@ -1,0 +1,2 @@
+advancement revoke @s only cmsb_pp:items/ice_arrow_damaged
+execute as @e[type=arrow,nbt={item:{components:{"minecraft:custom_data":{cmsb_pp:"ice_arrow"}}}}] at @s run function cmsb_pp:items/ice_arrow/hit

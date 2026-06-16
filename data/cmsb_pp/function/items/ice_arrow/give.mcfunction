@@ -1,0 +1,1 @@
+give @s arrow[max_stack_size=24,custom_model_data={strings:["ice_arrow"]},custom_data={cmsb_pp:"ice_arrow"},item_name='{"text": "氷の矢","color":"dark_aqua","bold": true}',lore=['{"text": "エンティティに命中した時、氷で閉じ込める","color": "gray","italic": false}','{"text": "ブロックに着弾した時、氷を張る","color": "gray","italic": false}']] 24
