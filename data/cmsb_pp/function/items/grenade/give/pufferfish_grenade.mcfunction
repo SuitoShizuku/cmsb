@@ -1,0 +1,1 @@
+give @s minecraft:snowball[custom_data={cmsb_pp:"pufferfish_grenade"}]
