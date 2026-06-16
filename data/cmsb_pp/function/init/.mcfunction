@@ -9,6 +9,8 @@ scoreboard objectives add cmsb_pp.calc.dummy.c dummy "演算用ダミースコ�
 # スニーク50回で1すばペイもらう用
 scoreboard objectives add cmsb_pp.passive minecraft.custom:minecraft.sneak_time
 scoreboard objectives add cmsb_pp.passive.count dummy
+# 所持すばペイ
+scoreboard objectives add cmsb_pp.sbpy dummy "すばペイ"
 
 # タスク関係
 scoreboard objectives add cmsb_pp.task.id dummy "タスクID"

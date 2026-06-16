@@ -1,0 +1,1 @@
+$summon item ~ ~ ~ {Owner:$(UUID),Item:{count:$(count),id:"minecraft:poisonous_potato",components:{"!consumable":{},"minecraft:custom_data":{cmsb_pp:"sbpay"},"minecraft:item_model":"minecraft:sunflower","minecraft:item_name":'{"bold":true,"color":"gold","text":"すばペイ"}',"minecraft:max_stack_size":99}}}

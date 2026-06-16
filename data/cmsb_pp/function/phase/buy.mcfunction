@@ -10,3 +10,5 @@ scoreboard players set cmsb_pp._timer cmsb_pp 5
 function cmsb_pp:timer/set
 
 scoreboard players set status cmsb_pp 2
+
+execute as @a at @s run function cmsb_pp:phase/pay_convert with entity @s
