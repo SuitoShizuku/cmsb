@@ -1,6 +1,6 @@
 advancement revoke @s only cmsb_pp:items/inv_armor
 
-clear @s glass[custom_data={cmsb_pp:"inv_armors"},enchantment_glint_override=true,minecraft:item_name='{"bold":true,"color":"light_purple","text":"透明装備セット"}',lore=['{"text":"周りから見ると透明な装備","color": "white","italic": false}'],max_stack_size=1] 1
+clear @s glass[custom_data={cmsb_pp:"inv_armors"},minecraft:item_name='{"bold":true,"color":"light_purple","text":"透明装備セット"}',lore=['{"text":"周りから見ると透明な装備","color": "white","italic": false}'],max_stack_size=1] 1
 
 give @s chainmail_helmet[custom_model_data={flags:[true]},item_name='{"bold":true,"color":"light_purple","text":"透明ヘルメット"}',lore=['{"text": "この装備は誰にも見えない","color": "gray","italic": false}'],attribute_modifiers=[{"type":"minecraft:armor",id:"minecraft:armor.helmet",amount:2.0,operation:"add_value",slot:"head"},{"type":"minecraft:armor_toughness",id:"minecraft:armor.helmet",amount:0.0,operation:"add_value",slot:"head"}]]
 give @s chainmail_chestplate[custom_model_data={flags:[true]},item_name='{"bold":true,"color":"light_purple","text":"透明チェストプレート"}',lore=['{"text": "この装備は誰にも見えない","color": "gray","italic": false}'],attribute_modifiers=[{"type":"minecraft:armor",id:"minecraft:armor.chestplate",amount:6.0,operation:"add_value",slot:"chest"},{"type":"minecraft:armor_toughness",id:"minecraft:armor.chestplate",amount:0.0,operation:"add_value",slot:"chest"}]]

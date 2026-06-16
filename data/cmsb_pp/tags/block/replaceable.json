@@ -4,6 +4,7 @@
         "tall_grass",
         "fern",
         "large_fern",
-        "vine"
+        "vine",
+        "#air"
     ]
 }

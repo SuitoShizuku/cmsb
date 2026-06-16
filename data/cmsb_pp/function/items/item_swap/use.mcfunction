@@ -1,6 +1,6 @@
 advancement revoke @s only cmsb_pp:items/item_swap
 execute if function cmsb_pp:items/ct/check run return 0
-item modify entity @s weapon.mainhand cmsb_pp:item_use
+execute if entity @s[gamemode=!creative] run item modify entity @s weapon.mainhand cmsb_pp:item_use
 
 # 準備
 setblock 0 -64 0 shulker_box
