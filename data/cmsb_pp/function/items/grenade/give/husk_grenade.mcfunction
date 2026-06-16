@@ -1,1 +1,1 @@
-give @s minecraft:snowball[custom_data={cmsb_pp:"husk_grenade"}]
+give @s minecraft:snowball[custom_data={cmsb_pp:"husk_grenade"},item_model="husk_grenade"]
