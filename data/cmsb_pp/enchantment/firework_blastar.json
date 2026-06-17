@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 2,
+  "description": "打ち上げ花火",
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "cmsb_pp:items/firework_blaststar/attack"
+        }
+      }
+    ]
+  },
+  "weight": 1,
+  "max_cost": {
+    "base": 5,
+    "per_level_above_first": 1
+  },
+  "min_cost": {
+    "base": 2,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/weapon"
+}

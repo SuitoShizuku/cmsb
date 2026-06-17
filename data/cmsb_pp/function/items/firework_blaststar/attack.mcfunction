@@ -1,0 +1,6 @@
+execute store result score @s cmsb_pp.calc.dummy.a run random value 1..3
+execute if score @s cmsb_pp.calc.dummy.a matches 1 run summon firework_rocket ~ ~ ~ {Tags:["cmsb_pp","firework_blaststar"],Air:300s,FallDistance:0.0f,FireworksItem:{components:{"minecraft:fireworks":{explosions:[{colors:[I;11743532],shape:"small_ball"},{colors:[I;15790320],shape:"small_ball"}],flight_duration:1b}},count:1,id:"minecraft:firework_rocket"},LifeTime:15}
+execute if score @s cmsb_pp.calc.dummy.a matches 2 run summon firework_rocket ~ ~ ~ {Tags:["cmsb_pp","firework_blaststar"],Air:300s,FallDistance:0.0f,FireworksItem:{components:{"minecraft:fireworks":{explosions:[{colors:[I;2929457],shape:"small_ball"},{colors:[I;15790320],shape:"small_ball"}],flight_duration:1b}},count:1,id:"minecraft:firework_rocket"},LifeTime:15}
+execute if score @s cmsb_pp.calc.dummy.a matches 3 run summon firework_rocket ~ ~ ~ {Tags:["cmsb_pp","firework_blaststar"],Air:300s,FallDistance:0.0f,FireworksItem:{components:{"minecraft:fireworks":{explosions:[{colors:[I;3222707],shape:"small_ball"},{colors:[I;15790320],shape:"small_ball"}],flight_duration:1b}},count:1,id:"minecraft:firework_rocket"},LifeTime:15}
+ride @s mount @n[tag=firework_blaststar]
+tag @n[tag=firework_blaststar] remove firework_blaststar
