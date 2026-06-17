@@ -1,0 +1,7 @@
+{
+  "condition": "random_chance",
+  "chance": {
+    "type": "constant",
+    "value": 0.9
+  }
+}
