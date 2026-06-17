@@ -4,6 +4,7 @@ bossbar set cmsb_pp:timer visible false
 
 scoreboard players set @a deathCount 0
 
+gamerule keepInventory true
 worldborder set 25 360
 
 execute as @e[tag=pvp_shop] at @s run fill ~-3 ~ ~-3 ~3 ~7 ~3 air

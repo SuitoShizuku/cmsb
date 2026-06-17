@@ -44,6 +44,10 @@ scoreboard objectives add cmsb_pp.task.10 minecraft.mined:amethyst_cluster
 scoreboard objectives add cmsb_pp.task.11 minecraft.mined:ancient_debris
 scoreboard objectives add cmsb_pp.task.16.t dummy
 scoreboard objectives add cmsb_pp.task.16.s dummy
+scoreboard objectives add cmsb_pp.task.18.1 minecraft.mined:diamond_ore
+scoreboard objectives add cmsb_pp.task.18.2 minecraft.mined:deepslate_diamond_ore
+scoreboard objectives add cmsb_pp.task.19.1 minecraft.mined:diamond_ore
+scoreboard objectives add cmsb_pp.task.19.2 minecraft.mined:deepslate_diamond_ore
 
 # アイテム関係
 scoreboard objectives add cmsb_pp.timer.ct dummy "ユニークアイテムのクールタイム"

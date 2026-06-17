@@ -16,3 +16,5 @@ execute if score @s cmsb_pp.task.id matches 14 run title @s actionbar [{"text": 
 execute if score @s cmsb_pp.task.id matches 15 run title @s actionbar [{"text": "森の館で音楽を流す: "},{"score": {"name": "@s","objective": "cmsb_pp.task.progress"},"color": "gold"},{"text": " /1","color": "red"}]
 execute if score @s cmsb_pp.task.id matches 16 run function cmsb_pp:task/progress/16_t
 execute if score @s cmsb_pp.task.id matches 17 run title @s actionbar [{"text": "ブレイズの討伐数: "},{"score": {"name": "@s","objective": "cmsb_pp.task.progress"},"color": "gold"},{"text": " /8","color": "red"}]
+execute if score @s cmsb_pp.task.id matches 18 run function cmsb_pp:task/progress/18
+execute if score @s cmsb_pp.task.id matches 19 run function cmsb_pp:task/progress/19
