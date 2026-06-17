@@ -1,3 +1,5 @@
+execute unless predicate cmsb_pp:is_battle run return fail
+
 execute positioned ~ ~2 ~ run tag @e[distance=..5] add inStan
 
 playsound entity.firework_rocket.blast player @a ~ ~ ~ 0.6 0

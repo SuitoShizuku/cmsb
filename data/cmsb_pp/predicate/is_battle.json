@@ -1,0 +1,13 @@
+{
+  "condition": "value_check",
+  "value": {
+    "type": "score",
+    "score": "cmsb_pp",
+    "target": {
+      "type": "fixed",
+      "name": "status"
+    },
+    "scale": 1
+  },
+  "range": 3
+}

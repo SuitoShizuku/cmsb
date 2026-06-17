@@ -1,3 +1,4 @@
+execute unless predicate cmsb_pp:is_battle run return fail
 summon zombie ~ ~ ~ {Tags:["cmsb_pp","summoned","ini"],ArmorItems:[{},{},{},{id:"leather_helmet",components:{unbreakable:{}}}],ArmorDropChances:[0,0,0,0],attributes:[{id:"attack_knockback",base:0.5}],Glowing:0b,DeathLootTable:''}
 summon zombie ~1 ~ ~ {Tags:["cmsb_pp","summoned","ini"],ArmorItems:[{},{},{},{id:"leather_helmet",components:{unbreakable:{}}}],ArmorDropChances:[0,0,0,0],attributes:[{id:"attack_knockback",base:0.5}],Glowing:0b,DeathLootTable:''}
 summon zombie ~-1 ~ ~ {Tags:["cmsb_pp","summoned","ini"],ArmorItems:[{},{},{},{id:"leather_helmet",components:{unbreakable:{}}}],ArmorDropChances:[0,0,0,0],attributes:[{id:"attack_knockback",base:0.5}],Glowing:0b,DeathLootTable:''}

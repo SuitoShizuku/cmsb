@@ -1,3 +1,4 @@
+execute unless predicate cmsb_pp:is_battle run return fail
 summon pufferfish ~ ~ ~ {Tags:["cmsb_pp","summoned","ini"],attributes:[{id:"scale",base:2}],Air:1800,Glowing:0b,DeathLootTable:''}
 summon pufferfish ~ ~ ~ {Tags:["cmsb_pp","summoned","ini"],attributes:[{id:"scale",base:2}],Air:1800,Glowing:0b,DeathLootTable:'',Motion:[1.0,0.0,0.0],Rotation:[-90,0]}
 summon pufferfish ~ ~ ~ {Tags:["cmsb_pp","summoned","ini"],attributes:[{id:"scale",base:2}],Air:1800,Glowing:0b,DeathLootTable:'',Motion:[-1.0,0.0,0.0],Rotation:[90,0]}
