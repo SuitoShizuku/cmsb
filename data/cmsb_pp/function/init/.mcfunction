@@ -1,4 +1,5 @@
 forceload add 0 0 0 0
+gamerule commandBlockOutput false
 execute in cmsb_pp:pvp run forceload add -64 -64 47 47
 scoreboard objectives add cmsb_pp dummy "ゲームの詳細データ"
 
