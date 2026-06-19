@@ -1,13 +1,19 @@
 {
-  "condition": "value_check",
-  "value": {
-    "type": "score",
-    "score": "cmsb_pp",
-    "target": {
-      "type": "fixed",
-      "name": "status"
+  "condition": "inverted",
+  "term": {
+    "condition": "value_check",
+    "value": {
+      "type": "score",
+      "score": "cmsb_pp",
+      "target": {
+        "type": "fixed",
+        "name": "status"
+      },
+      "scale": 1
     },
-    "scale": 1
-  },
-  "range": 3
+    "range": {
+      "max": 2,
+      "min": 1
+    }
+  }
 }
