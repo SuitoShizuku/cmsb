@@ -1,6 +1,12 @@
 # 準備フェーズ
 
+scoreboard players set #teamroot cmsb_pp 0
+execute store result score #teamroot cmsb_pp if entity @a
+execute if score #teamroot cmsb_pp matches 0..2 run return run tellraw @a [{"text": "\nゲームを開始しようとしましたが、プレイヤー数が足りません\n最低3人のプレイヤーが必要です。\n","color": "red"}]
+
+
 # チームに強制的に入れる
+# エラー回避で毎回0に設定
 execute as @a[team=!r] if entity @s[team=!g] if entity @s[team=!b] run team join null
 scoreboard players set #teamroot cmsb_pp 0
 execute store result score #teamroot cmsb_pp if entity @a[team=r]
@@ -25,6 +31,8 @@ execute as @a at @s run function cmsb_pp:init/player
 
 # 設定
 function cmsb_pp:timer/set
+
+scoreboard players reset @a .cmsb.settings.team
 
 
 

@@ -1,1 +1,2 @@
 title @a actionbar [{"text": "/function #_settings:","color": "gray","underlined": true},{"text": " で ゲーム設定・チーム・ゲーム開始","color": "white","underlined": false}]
+execute as @a if score @s .cmsb.settings.team matches -2147483648..2147483647 run function _settings:join/at_all

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "left_battle_dimension": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "cmsb_pp:battle"
+      }
+    },
+    "left_battle_nowater_dimension": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "cmsb_pp:battle_nowater"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "left_battle_dimension",
+      "left_battle_nowater_dimension"
+    ]
+  ],
+  "rewards": {
+    "function": "cmsb_pp:left_battle_dimension"
+  }
+}

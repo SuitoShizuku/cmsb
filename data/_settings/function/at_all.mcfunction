@@ -1,0 +1,6 @@
+tag @s add runner
+scoreboard players reset @a .cmsb.settings.team
+scoreboard players enable @a[tag=!runner] .cmsb.settings.team
+tellraw @a[tag=!runner] [{"text": "\n- チーム設定 -","color": "white","bold": true}]
+tellraw @a[tag=!runner] [{"text": "[","color": "red"},{"text": "赤チームに参加","color": "gray", "underlined": true,"clickEvent": {"action": "run_command","value": "/trigger .cmsb.settings.team set 2147483645"},"hoverEvent": {"action": "show_text","contents": [{"text": "クリックで参加","color": "white"}]}},{"text": "]","color": "red"}," ",{"text": "[","color": "green"},{"text": "緑チームに参加","color": "gray", "underlined": true,"clickEvent": {"action": "run_command","value": "/trigger .cmsb.settings.team set 2147483646"},"hoverEvent": {"action": "show_text","contents": [{"text": "クリックで参加","color": "white"}]}},{"text": "]","color": "green"}," ",{"text": "[","color": "blue"},{"text": "青チームに参加","color": "gray", "underlined": true,"clickEvent": {"action": "run_command","value": "/trigger .cmsb.settings.team set 2147483647"},"hoverEvent": {"action": "show_text","contents": [{"text": "クリックで参加","color": "white"}]}},{"text": "]\n","color": "blue"}]
+tag @s remove runner

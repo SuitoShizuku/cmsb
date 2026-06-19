@@ -1,7 +1,9 @@
 forceload add 0 0 0 0
 gamerule commandBlockOutput false
-execute in cmsb_pp:pvp run forceload add -64 -64 47 47
+execute in cmsb_pp:battle run forceload add -64 -64 47 47
+execute in cmsb_pp:battle_nowater run forceload add -64 -64 47 47
 scoreboard objectives add cmsb_pp dummy "ゲームの詳細データ"
+scoreboard objectives add .cmsb.settings.team trigger "チーム設定"
 
 scoreboard objectives add cmsb_pp.calc.dummy.a dummy "演算用ダミースコアA"
 scoreboard objectives add cmsb_pp.calc.dummy.b dummy "演算用ダミースコアB"
@@ -67,6 +69,7 @@ scoreboard players set cmsb_pp._timer cmsb_pp 0
 
 # フェーズの初期設定
 execute unless score status cmsb_pp matches 1.. run scoreboard players set status cmsb_pp 0
+scoreboard players set $dimension cmsb_pp 0
 
 # チーム
 team add r "赤チーム"
