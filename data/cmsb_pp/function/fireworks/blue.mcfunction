@@ -1,0 +1,3 @@
+execute at @a[team=b] run summon firework_rocket ~ ~ ~ {Air:300s,FallDistance:0.0f,FireworksItem:{components:{"minecraft:fireworks":{explosions:[{colors:[I;3222707,3222707,3222707,3222707,3222707,3222707],has_trail:1b,shape:"large_ball"},{colors:[I;15790320,15790320,15790320,15790320,15790320,15790320],has_trail:1b,shape:"large_ball"}],flight_duration:1b}},count:64,id:"minecraft:firework_rocket"},LifeTime:24}
+scoreboard players remove #Fireworks cmsb_pp 1
+execute if score #Fireworks cmsb_pp matches 1.. run schedule function cmsb_pp:fireworks/blue 15t
