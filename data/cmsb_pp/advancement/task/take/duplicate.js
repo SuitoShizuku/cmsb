@@ -2,6 +2,8 @@
     * 
     * Coding By Shizuku
     * 
+    * Node.jsのCommonJSです
+    * 
 */
 
 // 複製する一つ目のファイルのインデックス(値の-1)
