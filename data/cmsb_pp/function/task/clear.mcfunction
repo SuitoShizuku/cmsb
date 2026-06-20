@@ -7,7 +7,7 @@ playsound entity.player.levelup player @s ~ ~ ~ 1 2 1
 
 tag @s remove is_veteran
 tag @s remove is_master
-scoreboard players reset @s cmsb_pp.task.id
+scoreboard players set @s cmsb_pp.task.id -1
 scoreboard players reset @s cmsb_pp.task.progress
 
 function cmsb_pp:villager/task_trader/teleport/go

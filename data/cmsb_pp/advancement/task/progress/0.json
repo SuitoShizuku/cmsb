@@ -1,15 +1,15 @@
 {
   "criteria": {
-    "progress": {
-      "trigger": "minecraft:crafter_recipe_crafted",
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "crafting_table"
+        "recipe_id": "minecraft:crafting_table"
       }
     }
   },
   "requirements": [
     [
-      "progress"
+      "craft"
     ]
   ],
   "rewards": {

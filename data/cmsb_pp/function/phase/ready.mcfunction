@@ -34,11 +34,11 @@ tag @a remove g2
 tag @a remove b1
 tag @a remove b2
 tag @r[team=r] add r1
-tag @r[team=r] add r2
+tag @r[team=r,tag=!r1] add r2
 tag @r[team=g] add g1
-tag @r[team=g] add g2
+tag @r[team=g,tag=!g1] add g2
 tag @r[team=b] add b1
-tag @r[team=b] add b2
+tag @r[team=b,tag=!b1] add b2
 # プレイヤーの初期化
 execute as @a at @s run function cmsb_pp:init/player
 
