@@ -1,7 +1,7 @@
 forceload add 0 0 0 0
 gamerule commandBlockOutput false
-execute in cmsb_pp:battle run forceload add -64 -64 47 47
-execute in cmsb_pp:battle_nowater run forceload add -64 -64 47 47
+execute in cmsb_pp:battle run forceload add -65 -65 48 48
+execute in cmsb_pp:battle_nowater run forceload add -65 -65 48 48
 execute in cmsb_pp:shop_r1 run forceload add -1 -1 1 1
 execute in cmsb_pp:shop_r2 run forceload add -1 -1 1 1
 execute in cmsb_pp:shop_g1 run forceload add -1 -1 1 1
