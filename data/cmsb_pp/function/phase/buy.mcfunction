@@ -8,7 +8,11 @@ worldborder set 201 0
 execute if score $dimension cmsb_pp matches 0 in cmsb_pp:battle positioned 0.0 300 0.0 run function cmsb_pp:phase/buy_place
 execute if score $dimension cmsb_pp matches 1 in cmsb_pp:battle_nowater positioned 0.0 300 0.0 run function cmsb_pp:phase/buy_place
 
-scoreboard players set cmsb_pp._timer cmsb_pp 5
+
+tag @a remove have_task
+gamemode adventure @a[team=!null]
+
+scoreboard players operation cmsb_pp._timer cmsb_pp = cmsb_pp._shop cmsb_pp
 function cmsb_pp:timer/set
 
 scoreboard players set status cmsb_pp 2

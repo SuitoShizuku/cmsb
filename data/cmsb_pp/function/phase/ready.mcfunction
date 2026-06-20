@@ -51,3 +51,5 @@ scoreboard players reset @a .cmsb.settings.team
 
 # 準備フェーズ開始
 scoreboard players set status cmsb_pp 1
+
+execute as @a at @s run function cmsb_pp:task/take/0

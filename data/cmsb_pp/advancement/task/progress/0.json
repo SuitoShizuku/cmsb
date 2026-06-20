@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "progress": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "crafting_table"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "progress"
+    ]
+  ],
+  "rewards": {
+    "function": "cmsb_pp:task/progress/0"
+  }
+}

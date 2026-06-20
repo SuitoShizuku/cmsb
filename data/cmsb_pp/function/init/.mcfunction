@@ -72,6 +72,7 @@ bossbar add cmsb_pp:timer "タイマー(残り時間)"
 # タイマー設定用
 # 分単位
 scoreboard players set cmsb_pp._timer cmsb_pp 0
+execute unless score cmsb_pp._shop cmsb_pp matches 1.. run scoreboard players set cmsb_pp._shop cmsb_pp 5
 
 # フェーズの初期設定
 execute unless score status cmsb_pp matches 1.. run scoreboard players set status cmsb_pp 0

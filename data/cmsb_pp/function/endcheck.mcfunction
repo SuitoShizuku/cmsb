@@ -1,6 +1,11 @@
 advancement revoke @s only cmsb_pp:death
 execute unless score status cmsb_pp matches 3 run return 0
 
+summon marker ~ ~ ~ {Tags:["tmp"]}
+spreadplayers 0 0 13 25 under 350 true @n[tag=tmp]
+execute positioned as @n[tag=tmp] run spawnpoint @s ~ ~ ~
+kill @n[tag=tmp]
+
 # 累計死亡回数を取得
 # 2回死んだら強制スペクテイターなので1チーム4回以上死んでいたら脱落とする。
 scoreboard players set #red_total_death cmsb_pp.calc.dummy.a 0
