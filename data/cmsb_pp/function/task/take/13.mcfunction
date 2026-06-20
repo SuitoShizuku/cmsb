@@ -4,3 +4,5 @@ scoreboard players set @s cmsb_pp.task.id 13
 function cmsb_pp:task/init
 
 tellraw @s ["\n",{"text": "タスク:「海洋治安整備」","bold": true,"color": "gold"},{"text": "\n・トライデントを持ったドラウンドを討伐する","bold": false,"color": "gray"},"\n"]
+
+function cmsb_pp:villager/task_trader/teleport/back

@@ -26,6 +26,19 @@ execute if score #teamroot cmsb_pp matches 0 run team join g @r[team=null]
 scoreboard players set #teamroot cmsb_pp 0
 execute store result score #teamroot cmsb_pp if entity @a[team=b]
 execute if score #teamroot cmsb_pp matches 0 run team join b @r[team=null]
+# プレイヤーの固有ナンバリング
+tag @a remove r1
+tag @a remove r2
+tag @a remove g1
+tag @a remove g2
+tag @a remove b1
+tag @a remove b2
+tag @r[team=r] add r1
+tag @r[team=r] add r2
+tag @r[team=g] add g1
+tag @r[team=g] add g2
+tag @r[team=b] add b1
+tag @r[team=b] add b2
 # プレイヤーの初期化
 execute as @a at @s run function cmsb_pp:init/player
 

@@ -15,3 +15,5 @@ scoreboard players set @s cmsb_pp.task.1.9 0
 tellraw @s ["\n",{"text": "タスク:「原木採取」","bold": true,"color": "dark_aqua"},{"text": "\n・いずれかの原木を10個採取する","bold": false,"color": "gray"},"\n"]
 
 playsound entity.experience_orb.pickup player @s ~ ~ ~ 1 0 1
+
+function cmsb_pp:villager/task_trader/teleport/back

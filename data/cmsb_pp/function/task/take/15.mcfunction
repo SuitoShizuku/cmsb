@@ -4,3 +4,5 @@ scoreboard players set @s cmsb_pp.task.id 15
 function cmsb_pp:task/init
 
 tellraw @s ["\n",{"text": "タスク:「パーティー準備」","bold": true,"color": "gold"},{"text": "\n・森の館でレコードを流す","bold": false,"color": "gray"},"\n"]
+
+function cmsb_pp:villager/task_trader/teleport/back

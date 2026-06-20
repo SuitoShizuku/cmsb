@@ -1,0 +1,17 @@
+{
+  "type": "cmsb_pp:debug",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:plains",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 1,
+          "block": "bedrock"
+        }
+      ]
+    }
+  }
+}

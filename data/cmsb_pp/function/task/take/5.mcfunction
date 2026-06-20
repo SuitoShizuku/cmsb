@@ -5,3 +5,5 @@ function cmsb_pp:task/init
 scoreboard players set @s cmsb_pp.task.5 0
 
 tellraw @s ["\n",{"text": "タスク:「パン職人」","bold": true,"color": "dark_aqua"},{"text": "\n・パンを9個クラフトする","bold": false,"color": "gray"},"\n"]
+
+function cmsb_pp:villager/task_trader/teleport/back

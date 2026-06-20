@@ -7,3 +7,5 @@ scoreboard players set @s cmsb_pp.task.18.1 0
 scoreboard players set @s cmsb_pp.task.18.2 0
 
 tellraw @s ["\n",{"text": "タスク:「担保」","bold": true,"color": "gold"},{"text": "\n・ダイヤモンド鉱石を5個採掘する","bold": false,"color": "gray"},"\n"]
+
+function cmsb_pp:villager/task_trader/teleport/back

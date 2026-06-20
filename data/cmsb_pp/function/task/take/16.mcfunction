@@ -6,3 +6,5 @@ scoreboard players set @s cmsb_pp.task.16.t 0
 scoreboard players set @s cmsb_pp.task.16.s 0
 
 tellraw @s ["\n",{"text": "タスク:「観察者」","bold": true,"color": "gold"},{"text": "\n・オブザーバーを頭に被り、他のプレイヤーを観察する","bold": false,"color": "gray"},"\n"]
+
+function cmsb_pp:villager/task_trader/teleport/back

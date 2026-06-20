@@ -1,0 +1,1 @@
+$execute in overworld run tp @s $(pos_x) $(pos_y) $(pos_z) $(rot_x) $(rot_y)

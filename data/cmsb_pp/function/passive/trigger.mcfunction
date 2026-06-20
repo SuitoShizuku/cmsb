@@ -9,3 +9,4 @@ scoreboard players remove @s cmsb_pp.passive.count 100
 execute if score status cmsb_pp matches 2.. run return 0
 scoreboard players set @s cmsb_pp.calc.dummy.b 1
 execute at @s run function cmsb_pp:task/reward with entity @s
+playsound entity.player.levelup player @s ~ ~ ~ 1 1.5 1

@@ -7,3 +7,5 @@ scoreboard players set @s cmsb_pp.task.19.1 0
 scoreboard players set @s cmsb_pp.task.19.2 0
 
 tellraw @s ["\n",{"text": "タスク:「賭け」","bold": true,"color": "gold"},{"text": "\n・ダイヤモンド鉱石を10個採掘する","bold": false,"color": "gray"},"\n"]
+
+function cmsb_pp:villager/task_trader/teleport/back

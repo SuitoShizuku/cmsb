@@ -5,3 +5,5 @@ function cmsb_pp:task/init
 scoreboard players set @s cmsb_pp.task.11 0
 
 tellraw @s ["\n",{"text": "タスク:「遺物ハンター」","bold": true,"color": "gold"},{"text": "\n・古代の残骸を4個採掘する","bold": false,"color": "gray"},"\n"]
+
+function cmsb_pp:villager/task_trader/teleport/back

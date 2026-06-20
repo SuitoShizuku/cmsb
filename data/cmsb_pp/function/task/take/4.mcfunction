@@ -11,3 +11,5 @@ scoreboard players set @s cmsb_pp.task.4.6 0
 scoreboard players set @s cmsb_pp.task.4.7 0
 
 tellraw @s ["\n",{"text": "タスク:「草むしり」","bold": true,"color": "dark_aqua"},{"text": "\n・雑草を100回刈る","bold": false,"color": "gray"},"\n"]
+
+function cmsb_pp:villager/task_trader/teleport/back

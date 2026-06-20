@@ -1,0 +1,2 @@
+kill @n[tag=teleport_tmp,distance=0.01..,type=marker]
+$function cmsb_pp:villager/task_trader/teleport/return_tp_$(dimension) {pos_x:$(pos_x),pos_y:$(pos_y),pos_z:$(pos_z),pos_x8:$(pos_x8),pos_z8:$(pos_z8),rot_x:$(rot_x),rot_y:$(rot_y)}

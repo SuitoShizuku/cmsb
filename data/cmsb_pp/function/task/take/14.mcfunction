@@ -4,3 +4,5 @@ scoreboard players set @s cmsb_pp.task.id 14
 function cmsb_pp:task/init
 
 tellraw @s ["\n",{"text": "タスク:「ドラゴン討伐」","bold": true,"color": "gold"},{"text": "\n・エンダードラゴンを討伐する","bold": false,"color": "gray"},"\n"]
+
+function cmsb_pp:villager/task_trader/teleport/back
