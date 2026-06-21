@@ -1,0 +1,1 @@
+function locked_items:give

@@ -1,0 +1,2 @@
+$execute as @e[type=interaction,tag=locked_items,tag=locked_items_door,distance=..$(active_range)] if data entity @s {data:{locked_items:{key:"$(key)"}},interaction:{player:{}}} run function locked_items:interact/door/open
+$execute as @e[type=interaction,tag=locked_items,tag=locked_items_trapdoor,distance=..$(active_range)] if data entity @s {data:{locked_items:{key:"$(key)"}},interaction:{player:{}}} run function locked_items:interact/trapdoor/open

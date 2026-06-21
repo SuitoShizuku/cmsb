@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.mainhand": {
+              "items": "minecraft:ender_dragon_spawn_egg"
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:iron_door",
+                  "minecraft:iron_trapdoor"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "place"
+    ]
+  ],
+  "rewards": {
+    "function": "locked_items:place/spawn"
+  }
+}

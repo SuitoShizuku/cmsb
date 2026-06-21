@@ -1,0 +1,1 @@
+execute as @e[tag=locked_items,type=interaction] at @s run function locked_items:tick/

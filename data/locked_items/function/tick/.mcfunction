@@ -1,0 +1,2 @@
+execute if entity @s[tag=placed_door] run return run function locked_items:tick/door/ with entity @s data.locked_items
+execute if entity @s[tag=placed_trapdoor] run return run function locked_items:tick/trapdoor/ with entity @s data.locked_items
