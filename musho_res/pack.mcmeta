@@ -2,9 +2,9 @@
   "pack": {
     "description": "by Nuregumo",
     "min_format": [
-      107,
-      1
+      88,
+      0
     ],
-    "max_format": 107
+    "max_format": 88
   }
 }
